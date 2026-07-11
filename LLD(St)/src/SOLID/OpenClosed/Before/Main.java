@@ -4,5 +4,4 @@ public class Main {
     InvoiceService invoiceService = new InvoiceService();
     invoiceService.calculate();
   }
-    
 }

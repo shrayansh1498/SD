@@ -1,0 +1,14 @@
+import java.util.*;
+class BurgerMeal{
+    private String bun;
+    private String patty;
+    public BurgerMeal(String bun, String patty, List<String> toppings) {
+        this.bun = bun;
+        this.patty = patty;
+    }
+}
+public class Before {
+    public static void main(String[] args) {
+        BurgerMeal burgerMeal = new BurgerMeal("Bun", "Patty");
+    }
+}

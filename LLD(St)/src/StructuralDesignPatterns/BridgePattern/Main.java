@@ -1,5 +1,4 @@
 package StructuralDesignPatterns.BridgePattern;
-import java.util.*;
 
 interface VideoQuality{
     void play(String title);
@@ -89,4 +88,4 @@ public class Main {
         web4KPlayer.play("Movie 4");
     }
 }
-}
+

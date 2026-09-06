@@ -2,7 +2,7 @@ package BehaviouralDesignPatterns.VisitorPattern.Before;
 
 class PhysicalProduct{
     void printInvoice() {}
-    double calculateShippingCost() {}
+    double calculateShippingCost() {return 0;}
 }
 
 class DigitalProduct{
@@ -11,7 +11,7 @@ class DigitalProduct{
 
 class GiftCard{
     void printInvoice() {}
-    double calculateDiscount() {}
+    double calculateDiscount() {return 0;}
 }
 
 public class Before {

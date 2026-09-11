@@ -17,6 +17,16 @@ public String getData(){
         }
 }
 
+/*
+    Summary of Error hHandling
+    1. Temporary Spike - Retry with backoff
+    2. Persistent Error - Circuit Breaker
+    3. Third party delay - Timeout
+    4. Degraded experince - Fallback UI or cache
+    5. Avoid Flooding - Queue or Rate Limit
+    6. Highly critical service - Failover service
+*/
+
 public class Main {
     
 }
